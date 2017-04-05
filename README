@@ -1,0 +1,11 @@
+pip install flask-script
+pip install flask-bootstrap
+
+HTML必须放在名为templates的文件夹下。
+需要将CDN本地化
+
+Imports：
+
+from flask import Flask, render_template
+from flask_script import Manager
+from flask_bootstrap import Bootstrap
